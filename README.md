@@ -2,55 +2,68 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Setting up/Using Proton VPN: A Com prehensive Guide</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
+<h1>Setting up & Using Proton VPN on Azure: A Comprehensive Guide</h1>
+This tutorial outlines the implementation of Proton VPN within an Azure Virtual Machine.<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Active Directory Domain Services
-- PowerShell
+- Proton VPN
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2022
-- Windows 10 (21H2)
+- Windows 10 Pro, version 21H2 (free services eligible)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Set up an Azure Virtual Machine and ensure it meets the system requirements for Proton VPN
+- Step 2: Download and install Proton VPN on the Azure Virtual Machine
+- Step 3: Set up the necessary configurations such as selecting the VPN server, establishing connection protocol, and configuring DNS settings
+- Step 4: Ensure that Proton VPN is working correctly by performing a connectivity test and verifying that your IP address has been changed
+- Step 5: Configure the VPN to automatically connect when the Virtual Machine starts up.
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Step 1: Set up an Azure Virtual Machine and ensure it meets the system requirements for Proton VPN</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+1. Before we create an Azure VM, we will need to verify our own IP Address with the following link: https://whatismyipaddress.com/
 
+- Note: Copy down the provided details of your IPv4 and city to a notepad. 
+- Image display of Step 1: 1
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PNMOtSk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
+2. Go to the Azure Portal website (https://portal.azure.com/) and sign-in with your Azure account credentials. 
+- Note: If you do not have an Azure account, you will need to sign-up for one before you can log-in.
+
+3. Click on the search bar and type "Virtual Machines".
+4. Click on the "+ Create" button located on the top left-corner by "Switch to classic".
+5. Choose the option "Azure virtual machine", enter the following information:
+    <ol type="a">
+      <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
+      <li>Enter a unique name for the virtual machine (Use: vm-practice).</li>
+      <li>For "Resource group" it should automatically create the name.</li> ******************88
+      <li>For "Image" use: Windows 10 Pro, version 21H2 (free services eligible). </li>
+      <li>For "Size" use: Standard_D4s_v3 - 4 vcpus, 16 GiB memory. </li>
+      <li>For "Username" use: labuser.</li>
+      <li>For "Password" make sure to make up one.</li>
+      <li>For "Public inbound ports" click on "Allow selected ports".</li>
+      <li>For "Select inbound ports" use: RDP 3389.</li>
+    </ol>
+
+- Note: After you checkmarked "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights. Please confirm." located at bottom-left corner. Also, after you clicked on the "Review + create" button and review the settings. You should be able to see the following display:
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<p>  
+    
+- Note: Remember to keep your username and password you created in your notepad, as you will need them later. Also, verify that your information is correct!
+  
+  
+  
+     <ol type="a">
+      <li></li>
+      <li></li>
+      <li></li>   
+    </ol>
