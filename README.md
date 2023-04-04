@@ -17,13 +17,15 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1: Set up an Azure Virtual Machine and ensure it meets the system requirements for Proton VPN
-- Step 2: Download and install Proton VPN on the Azure Virtual Machine
-- Step 3: Set up the necessary configurations such as selecting the VPN server, establishing connection protocol, and configuring DNS settings
-- Step 4: Ensure that Proton VPN is working correctly by performing a connectivity test and verifying that your IP address has been changed
-- Step 5: Configure the VPN to automatically connect when the Virtual Machine starts up.
+- Step 1: Confirm your IPv4 address and city location on your computer
+- Step 2: Set up an Azure Virtual Machine and ensure it meets the system requirements for Proton VPN
+- Step 3: Download and install Proton VPN on the Azure Virtual Machine
+- Step 4: Set up the necessary configurations such as selecting the VPN server, establishing connection protocol, and configuring DNS settings
+- Step 5: Ensure that Proton VPN is working correctly by performing a connectivity test and verifying that your IP address has been changed
+- Step 6: Configure the VPN to automatically connect when the Virtual Machine starts up.
 
-<h2>Step 1: Set up an Azure Virtual Machine and ensure it meets the system requirements for Proton VPN</h2>
+
+<h2>Step 1: Confirm your IPv4 address and city location on your computer</h2>
 
 1. Before we create an Azure VM, we will need to verify our own IP Address with the following link: https://whatismyipaddress.com/
 
@@ -33,6 +35,8 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 <img src="https://i.imgur.com/PNMOtSk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+    
+<h2>Step 2: Set up an Azure Virtual Machine and ensure it meets the system requirements for Proton VPN</h2>
 
 2. Go to the Azure Portal website (https://portal.azure.com/) and sign-in with your Azure account credentials. 
 - Note: If you do not have an Azure account, you will need to sign-up for one before you can log-in.
