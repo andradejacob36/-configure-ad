@@ -45,7 +45,7 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
       <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
       <li>Enter a unique name for the virtual machine (Use: vm-practice).</li>
       <li>For "Region" select:(Europe) France Central (Note: Don't select the region you live in).</li>
-      <li>For "Resource group" it should automatically create a unique name.</li> ******************88
+      <li>For "Resource group" it should automatically create a unique name.</li> 
       <li>For "Image" use: Windows 10 Pro, version 21H2 (free services eligible). </li>
       <li>For "Size" use: Standard_E2s_v3 - 2 vcpus, 16 GiB memory. </li>
       <li>For "Username" use: labuser.</li>
@@ -68,7 +68,7 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 </p>
 <p>  
 
-7. Click the blue link "vm-osticket" located under "Name".
+7. Click the blue link "" located under "Name".
 8. On the "Overview" tab, find/copy the Public IP address located under "Size"; Essentials.
 <p>
 <img src="" height="80%" width="80%"/>
@@ -79,7 +79,7 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
  
 10. Paste the Public IP address(from your VM) in the computer name field and click "Connect". For Mac users paste the IP Address on "PC-name" and click "add".
  
- <p>
+<p>
 <img src="" height="80%" width="80%"/>
 </p>
 <p>  
@@ -102,18 +102,6 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
      <li>Inking and Typing: No</li>
      <li>Advertising ID: No</li>
     </ol>
+
 14. Click "Accept"   
   
-  
-  
-  
-  
-  
-  
-  
-  
-     <ol type="a">
-      <li></li>
-      <li></li>
-      <li></li>   
-    </ol>
