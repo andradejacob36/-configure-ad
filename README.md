@@ -28,6 +28,7 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 1. Before we create an Azure VM, we will need to verify our own IP Address with the following link: https://whatismyipaddress.com/
 
 - Note: Copy down the provided details of your IPv4 and city to a notepad. 
+
 - Image display of Step 1: 1
 <p>
 <img src="https://i.imgur.com/PNMOtSk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -43,9 +44,10 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
     <ol type="a">
       <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
       <li>Enter a unique name for the virtual machine (Use: vm-practice).</li>
-      <li>For "Resource group" it should automatically create the name.</li> ******************88
+      <li>For "Region" select:(Europe) France Central (Note: Don't select the region you live in).</li>
+      <li>For "Resource group" it should automatically create a unique name.</li> ******************88
       <li>For "Image" use: Windows 10 Pro, version 21H2 (free services eligible). </li>
-      <li>For "Size" use: Standard_D4s_v3 - 4 vcpus, 16 GiB memory. </li>
+      <li>For "Size" use: Standard_E2s_v3 - 2 vcpus, 16 GiB memory. </li>
       <li>For "Username" use: labuser.</li>
       <li>For "Password" make sure to make up one.</li>
       <li>For "Public inbound ports" click on "Allow selected ports".</li>
@@ -58,7 +60,55 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 </p>
 <p>  
     
-- Note: Remember to keep your username and password you created in your notepad, as you will need them later. Also, verify that your information is correct!
+6. On the search bar, type "Virtual Machines".
+- Note: After you created your VM, you should be able to see the following display:
+
+<p>
+<img src="" height="80%" width="80%"/>
+</p>
+<p>  
+
+7. Click the blue link "vm-osticket" located under "Name".
+8. On the "Overview" tab, find/copy the Public IP address located under "Size"; Essentials.
+<p>
+<img src="" height="80%" width="80%"/>
+</p>
+<p>  
+
+9. To access Remote Desktop Connection on Windows, navigate to the bottom-left corner and click on the "Start" button (Windows logo), then search for "Remote Desktop Connection" and open it. For Mac users download the app "remote- Microsoft Remote Desktop" from the App Store.
+ 
+10. Paste the Public IP address(from your VM) in the computer name field and click "Connect". For Mac users paste the IP Address on "PC-name" and click "add".
+ 
+ <p>
+<img src="" height="80%" width="80%"/>
+</p>
+<p>  
+ 
+11. Afterwards, make sure to log-in your credentials from Step 3 (Use Username: labuser/Password: Your unique password).
+
+- Note: For Windows users click "Yes" to connect to your VM. Observe the following display: 
+<p>
+<img src="https://i.imgur.com/xHG3t9h.png" height="80%" width="80%"/>
+</p>
+<p>  
+ 
+12. Please wait until your virtual machine logs you in.
+13. Then choose the following options for "Choose privacy settings for your device": 
+    <ol type="a">
+      <li>Location: No </li>
+      <li>Diagnostic Data: No</li>
+      <li>Tailored experiences: No</li>
+      <li>Find my device: No</li>
+     <li>Inking and Typing: No</li>
+     <li>Advertising ID: No</li>
+    </ol>
+14. Click "Accept"   
+  
+  
+  
+  
+  
+  
   
   
   
