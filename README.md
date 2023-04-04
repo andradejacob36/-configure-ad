@@ -29,7 +29,6 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 
 - Note: Copy down the provided details of your IPv4 and city to a notepad. 
 
-- Image display of Step 1: 1
 <p>
 <img src="https://i.imgur.com/PNMOtSk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -56,7 +55,7 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 
 - Note: After you checkmarked "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights. Please confirm." located at bottom-left corner. Also, after you clicked on the "Review + create" button and review the settings. You should be able to see the following display:
 <p>
-<img src="" height="80%" width="80%"/>
+<img src="https://i.imgur.com/ggc9djW.png" height="80%" width="80%"/>
 </p>
 <p>  
     
@@ -64,14 +63,14 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 - Note: After you created your VM, you should be able to see the following display:
 
 <p>
-<img src="" height="80%" width="80%"/>
+<img src="https://i.imgur.com/bOxI92i.png" height="80%" width="80%"/>
 </p>
 <p>  
 
-7. Click the blue link "" located under "Name".
+7. Click the blue link "vm-practice" located under "Name".
 8. On the "Overview" tab, find/copy the Public IP address located under "Size"; Essentials.
 <p>
-<img src="" height="80%" width="80%"/>
+<img src="https://i.imgur.com/42QEZ5z.png" height="80%" width="80%"/>
 </p>
 <p>  
 
@@ -80,7 +79,7 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 10. Paste the Public IP address(from your VM) in the computer name field and click "Connect". For Mac users paste the IP Address on "PC-name" and click "add".
  
 <p>
-<img src="" height="80%" width="80%"/>
+<img src="https://i.imgur.com/5UYpYcR.png" height="80%" width="80%"/>
 </p>
 <p>  
  
