@@ -19,10 +19,11 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 
 - Step 1: Confirm your IPv4 address and city location on your computer
 - Step 2: Set up an Azure Virtual Machine and ensure it meets the system requirements for Proton VPN
-- Step 3: Download and install Proton VPN on the Azure Virtual Machine
-- Step 4: Set up the necessary configurations such as selecting the VPN server, establishing connection protocol, and configuring DNS settings
-- Step 5: Ensure that Proton VPN is working correctly by performing a connectivity test and verifying that your IP address has been changed
-- Step 6: Configure the VPN to automatically connect when the Virtual Machine starts up.
+- Step 3: Re-verify your computer's IPv4 address and city location
+- Step 4: Download and install Proton VPN on the Azure Virtual Machine
+- Step 5: Set up the necessary configurations such as selecting the VPN server, establishing connection protocol, and configuring DNS settings
+- Step 6: Ensure that Proton VPN is working correctly by performing a connectivity test and verifying that your IP address has been changed
+- Step 7: Configure the VPN to automatically connect when the Virtual Machine starts up.
 
 
 <h2>Step 1: Confirm your IPv4 address and city location on your computer</h2>
@@ -38,12 +39,12 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
     
 <h2>Step 2: Set up an Azure Virtual Machine and ensure it meets the system requirements for Proton VPN</h2>
 
-2. Go to the Azure Portal website (https://portal.azure.com/) and sign-in with your Azure account credentials. 
+1. Go to the Azure Portal website (https://portal.azure.com/) and sign-in with your Azure account credentials. 
 - Note: If you do not have an Azure account, you will need to sign-up for one before you can log-in.
 
-3. Click on the search bar and type "Virtual Machines".
-4. Click on the "+ Create" button located on the top left-corner by "Switch to classic".
-5. Choose the option "Azure virtual machine", enter the following information:
+2. Click on the search bar and type "Virtual Machines".
+3. Click on the "+ Create" button located on the top left-corner by "Switch to classic".
+4. Choose the option "Azure virtual machine", enter the following information:
     <ol type="a">
       <li>Choose your subscription (For Ex: Azure Subscription 1).</li>
       <li>Enter a unique name for the virtual machine (Use: vm-practice).</li>
@@ -63,7 +64,7 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 </p>
 <p>  
     
-6. On the search bar, type "Virtual Machines".
+5. On the search bar, type "Virtual Machines".
 - Note: After you created your VM, you should be able to see the following display:
 
 <p>
@@ -71,23 +72,23 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 </p>
 <p>  
 
-7. Click the blue link "vm-practice" located under "Name".
-8. On the "Overview" tab, find/copy the Public IP address located under "Size"; Essentials.
+6. Click the blue link "vm-practice" located under "Name".
+7. On the "Overview" tab, find/copy the Public IP address located under "Size"; Essentials.
 <p>
 <img src="https://i.imgur.com/42QEZ5z.png" height="80%" width="80%"/>
 </p>
 <p>  
 
-9. To access Remote Desktop Connection on Windows, navigate to the bottom-left corner and click on the "Start" button (Windows logo), then search for "Remote Desktop Connection" and open it. For Mac users download the app "remote- Microsoft Remote Desktop" from the App Store.
+8. To access Remote Desktop Connection on Windows, navigate to the bottom-left corner and click on the "Start" button (Windows logo), then search for "Remote Desktop Connection" and open it. For Mac users download the app "remote- Microsoft Remote Desktop" from the App Store.
  
-10. Paste the Public IP address(from your VM) in the computer name field and click "Connect". For Mac users paste the IP Address on "PC-name" and click "add".
+9. Paste the Public IP address(from your VM) in the computer name field and click "Connect". For Mac users paste the IP Address on "PC-name" and click "add".
  
 <p>
 <img src="https://i.imgur.com/5UYpYcR.png" height="80%" width="80%"/>
 </p>
 <p>  
  
-11. Afterwards, make sure to log-in your credentials from Step 3 (Use Username: labuser/Password: Your unique password).
+10. Afterwards, make sure to log-in your credentials from Step 3 (Use Username: labuser/Password: Your unique password).
 
 - Note: For Windows users click "Yes" to connect to your VM. Observe the following display: 
 <p>
@@ -95,8 +96,8 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 </p>
 <p>  
  
-12. Please wait until your virtual machine logs you in.
-13. Then choose the following options for "Choose privacy settings for your device": 
+11. Please wait until your virtual machine logs you in.
+12. Then choose the following options for "Choose privacy settings for your device": 
     <ol type="a">
       <li>Location: No </li>
       <li>Diagnostic Data: No</li>
@@ -106,5 +107,15 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
      <li>Advertising ID: No</li>
     </ol>
 
-14. Click "Accept"   
-  
+13. Click "Accept"   
+
+<h2>Step 3: Re-verify your computer's IPv4 address and city location</h2>
+
+1. On your VM, browse Microsoft Edge and paste the following link: https://whatismyipaddress.com/
+
+- Note: Copy down the provided details of your IPv4 and city to a notepad. Also, remember that we created our VM based on the region from "France central" so you should expect to have an IPV4 and city within France.*****
+
+<p>
+<img src="https://i.imgur.com/PM8yEpv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
