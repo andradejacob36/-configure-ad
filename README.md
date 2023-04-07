@@ -113,9 +113,30 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 
 1. On your VM, browse Microsoft Edge and paste the following link: https://whatismyipaddress.com/
 
-- Note: Copy down the provided details of your IPv4 and city to a notepad. Also, remember that we created our VM based on the region from "France central" so you should expect to have an IPV4 and city within France.*****
+- Note: Copy down the provided details of your VM's IPv4 and city to a notepad. 
 
 <p>
 <img src="https://i.imgur.com/PM8yEpv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+<h2>Step 4: Download and install Proton VPN on the Azure Virtual Machine</h2>
+
+1. On your VM, open Microsoft Edge and paste the following link: https://account.protonvpn.com/signup?plan=free&language=en
+2. Create a free account. Aftewards, click the "Download" buttom under Windows.
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+3. Proceed by clicking "Download Proton VPN".
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+
+
+
