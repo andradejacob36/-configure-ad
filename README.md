@@ -141,5 +141,19 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 5. Double-click "ProtonVPN_win_v2.4.1"
 6. Navigate through the settings and finish installing the application. 
 7. Click on the Windows logo and type "Proton VPN" to find the application.
-8. After 
+8. After openning the app., use your email and unique password you used to create the free account.
+9. Next to Japan, click "Connect" to connect to the Japanese server.
 
+- You should see the following display:
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>   
+
+10. With the following link, confirm your newly IP address connected to the Japanese Server: https://whatismyipaddress.com/
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>   
+    
+11. Congratulations, you have created a VPN tunnel from your local server (France Central) to the VPN server in Japan. 
