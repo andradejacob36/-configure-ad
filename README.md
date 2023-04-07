@@ -137,6 +137,9 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 </p>
 <p>
 
-
-
+4. After downloading Proton VPN, go to Downloads; File Explorer.
+5. Double-click "ProtonVPN_win_v2.4.1"
+6. Navigate through the settings and finish installing the application. 
+7. Click on the Windows logo and type "Proton VPN" to find the application.
+8. After 
 
