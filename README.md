@@ -10,6 +10,7 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Proton VPN
+- WhatIsMyIPAddress.com
 
 <h2>Operating Systems Used </h2>
 
