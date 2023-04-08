@@ -21,10 +21,7 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 - Step 2: Set up an Azure Virtual Machine and ensure it meets the system requirements for Proton VPN
 - Step 3: Re-verify your computer's IPv4 address and city location
 - Step 4: Download and install Proton VPN on the Azure Virtual Machine
-- Step 5: Set up the necessary configurations such as selecting the VPN server, establishing connection protocol, and configuring DNS settings
-- Step 6: Ensure that Proton VPN is working correctly by performing a connectivity test and verifying that your IP address has been changed
-- Step 7: Configure the VPN to automatically connect when the Virtual Machine starts up.
-
+- Step 5: Ensure that Proton VPN is working correctly by performing a connectivity test and verifying that your IP address has been changed
 
 <h2>Step 1: Confirm your IPv4 address and city location on your computer</h2>
 
@@ -123,37 +120,51 @@ This tutorial outlines the implementation of Proton VPN within an Azure Virtual 
 <h2>Step 4: Download and install Proton VPN on the Azure Virtual Machine</h2>
 
 1. On your VM, open Microsoft Edge and paste the following link: https://account.protonvpn.com/signup?plan=free&language=en
-2. Create a free account. Aftewards, click the "Download" buttom under Windows.
+2. Create a free account. Aftewards, click the "Download" button under Windows.
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gzjFT5Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 3. Proceed by clicking "Download Proton VPN".
-
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5bt61rr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 4. After downloading Proton VPN, go to Downloads; File Explorer.
 5. Double-click "ProtonVPN_win_v2.4.1"
-6. Navigate through the settings and finish installing the application. 
-7. Click on the Windows logo and type "Proton VPN" to find the application.
-8. After openning the app., use your email and unique password you used to create the free account.
-9. Next to Japan, click "Connect" to connect to the Japanese server.
-
-- You should see the following display:
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NJEihw0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+6. Navigate through the settings and finish installing the application. 
+
+<h2>Step 5: Ensure that Proton VPN is working correctly by performing a connectivity test and verifying that your IP address has been changed</h2>
+
+1. Click on the Windows logo and type "Proton VPN" to find the application.
+2. After launching the application, use your email and unique password to log-in.
+
+- Note: We're going to test it by connecting our server (France Central) to a random Japanese Server.
+
+3. Next to Japan, click "Connect" to connect to a Japanese server.
+
+<p>
+<img src="https://i.imgur.com/bMNBH5y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>   
 
-10. With the following link, confirm your newly IP address connected to the Japanese Server: https://whatismyipaddress.com/
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/n6u78j0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>   
+
+4. With the following link confirm your new IP address connected to the Japanese Server: https://whatismyipaddress.com/
+<p>
+<img src="https://i.imgur.com/cmJy5vD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>   
     
-11. Congratulations, you have created a VPN tunnel from your local server (France Central) to the VPN server in Japan. 
+5. Congratulations, you have created a VPN tunnel from your local server (France Central) to the VPN server in Japan. 
