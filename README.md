@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+<img src="https://i.imgur.com/XQf7h39.png" height="50%" width="50%"/>
 </p>
 
 <h1>Setting up & Using Proton VPN on Azure: A Comprehensive Guide</h1>
